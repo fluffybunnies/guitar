@@ -1,6 +1,9 @@
 <?php
 // temp hack till i can fix at domain record level
-var_dump($_SERVER);exit;
+if (isset($_SERVER['HTTP_HOST']) && $_SERVER['HTTP_HOST'] == 'guitarlessonslongbeach.com') {
+	header('Location: '.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'],true,301);
+	exit;
+}
 ?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
