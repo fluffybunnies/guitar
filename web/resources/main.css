@@ -1,0 +1,255 @@
+body,form,input,select,textarea,p,ul,li,h1,h2,h3,h4,h5,h6
+{
+margin: 0;
+padding: 0;
+}
+
+body
+{
+font-family: verdana,arial,sans-serif;
+font-size: 12px;
+}
+
+img
+{
+border-width: 0;
+}
+
+a:focus
+{
+outline: none;
+}
+
+input:focus,select:focus,textarea:focus
+{
+outline-color: -moz-use-text-color;
+outline-style: none;
+outline-width: 0px;
+}
+
+#page_cont
+{
+width: 999px;
+height: 738px;
+overflow: hidden;
+position: relative;
+background: #f0f0f0;
+}
+
+#frame_top
+{
+position: absolute;
+left: 0;
+top: 0;
+}
+
+#frame_bottom
+{
+position: absolute;
+left: 0;
+bottom: 0;
+}
+
+#frame_top,#frame_bottom,#nav,#bottom_info
+{
+z-index: 2;
+}
+
+#nav
+{
+position: absolute;
+right: 30px;
+top: 0px;
+list-style: none;
+}
+
+#nav li
+{
+float: left;
+padding: 0 6px;
+background: transparent url(blank.gif);
+cursor: pointer;
+height: 74px;
+}
+
+#nav li .over
+{
+display: none;
+}
+
+#nav li.over .over,#nav li.selected .over
+{
+display: block;
+}
+
+#nav li.over .up,#nav li.selected .up
+{
+display: none;
+}
+
+.page
+{
+display: none;
+z-index: 1;
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+}
+
+#home
+{
+display: block;
+}
+
+.page h2
+{
+text-indent: -5000px;
+}
+
+#experience .left_img
+{
+float: left;
+display: block;
+}
+
+#experience .right_stuff
+{
+float: left;
+width: 576px;
+padding: 90px 0 0 20px;
+}
+
+#experience h2
+{
+background: transparent url(header1.png) no-repeat;
+width: 180px;
+height: 53px;
+padding-bottom: 30px;
+}
+
+#experience .articles
+{
+padding: 0 0 0 60px;
+width: 420px;
+}
+
+#experience .articles .article
+{
+padding-bottom: 36px;
+}
+
+#experience .articles .article h3
+{
+text-indent: -5000px;
+padding-bottom: 6px;
+}
+
+#experience .articles .article p
+{
+font-size: 12px;
+line-height: 15px;
+}
+
+#experience .article1_header
+{
+background: transparent url(header2.png) no-repeat;
+width: 209px;
+height: 41px;
+}
+
+#experience .article2_header
+{
+background: transparent url(header3.png) no-repeat;
+width: 185px;
+height: 41px;
+}
+
+#experience .article3_header
+{
+background: transparent url(header4.png) no-repeat;
+width: 174px;
+height: 41px;
+}
+
+#contact h2
+{
+background: transparent url(header5.png) no-repeat;
+width: 133px;
+height: 36px;
+padding-bottom: 30px;
+}
+
+#contact .left_img
+{
+float: left;
+display: block;
+}
+
+#contact .right_stuff
+{
+float: left;
+width: 530px;
+padding: 90px 0 0 8px;
+}
+
+#contact .right_stuff p
+{
+font-size: 20px;
+line-height: 25px;
+padding: 0 0 25px 36px;
+width: 408px;
+}
+
+#bottom_info
+{
+position: relative;
+top: -20px;
+padding: 40px 0 0 20px;
+margin-left: 80px;
+background: transparent url(seo_img1.jpg) no-repeat 460px 0;
+min-height: 393px;
+_height: 393px;
+}
+
+#bottom_info h1
+{
+font-size: 17px;
+padding-bottom: 8px;
+}
+
+#bottom_info .articles
+{
+width: 400px;
+}
+
+#bottom_info .article
+{
+padding-bottom: 8px;
+}
+
+#bottom_info .article h2
+{
+font-size: 15px;
+padding-bottom: 4px;
+}
+
+#bottom_info .article p
+{
+font-size: 12px;
+line-height: 15px;
+padding-bottom: 8px;
+}
+
+.coming_soon
+{
+padding-top: 200px;
+text-align: center;
+font-size: 14px;
+}
+
+#footer
+{
+padding: 20px 0;
+text-align: center;
+}
