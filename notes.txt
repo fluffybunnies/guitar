@@ -5,7 +5,7 @@
 ./index.sh _deploy
 # remote:
 cd /root/sire
-./index.sh hope
+./index.sh guitar
 
 
 --- To Do ---
