@@ -5,6 +5,7 @@
 <meta name="description" content="Get guitar and bass lessons in the Long Beach area. James Kee has over 15 years experience with electric, acoustic and stand-up strings." />
 <meta name="keywords" content="guitar lessons, bass lessons, long beach, long beach area, lakewood, rossmoor, los altos, cerritos, la palma, james kee, kee" />
 <title>Long Beach Guitar and Bass Lessons by James Kee</title>
+<meta name="google-site-verification" content="IUebVsOOJzBpCEjY0-957jGTb0UJJ7F2lRwD278PBeA" />
 <link rel="stylesheet" type="text/css" href="resources/main.css" />
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script type="text/javascript" src="resources/main.js"></script>
